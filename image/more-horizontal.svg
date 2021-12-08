@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <g id="more-horizontal" transform="translate(22 22) rotate(-180)">
+    <rect id="Rectangle" width="22" height="22" opacity="0"/>
+    <circle id="Oval" cx="1.833" cy="1.833" r="1.833" transform="translate(9.167 9.167)" fill="#3a4a66"/>
+    <circle id="Oval-2" data-name="Oval" cx="1.833" cy="1.833" r="1.833" transform="translate(15.583 9.167)" fill="#3a4a66"/>
+    <circle id="Oval-3" data-name="Oval" cx="1.833" cy="1.833" r="1.833" transform="translate(2.75 9.167)" fill="#3a4a66"/>
+  </g>
+</svg>

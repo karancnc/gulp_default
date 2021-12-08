@@ -1,0 +1,8 @@
+<svg id="menu" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="14" viewBox="0 0 20 14">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Combined_Shape" data-name="Combined Shape" d="M1,14a1,1,0,0,1,0-2H19a1,1,0,0,1,0,2ZM1,8A1,1,0,0,1,1,6H19a1,1,0,0,1,0,2ZM1,2A1,1,0,0,1,1,0H19a1,1,0,0,1,0,2Z" fill="#3a4a66"/>
+    </clipPath>
+  </defs>
+  <path id="Combined_Shape-2" data-name="Combined Shape" d="M1,14a1,1,0,0,1,0-2H19a1,1,0,0,1,0,2ZM1,8A1,1,0,0,1,1,6H19a1,1,0,0,1,0,2ZM1,2A1,1,0,0,1,1,0H19a1,1,0,0,1,0,2Z" fill="#3a4a66"/>
+</svg>

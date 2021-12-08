@@ -1,0 +1,4 @@
+<svg id="close" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+  <rect id="Rectangle" width="24" height="24" transform="translate(24 24) rotate(180)" opacity="0"/>
+  <path id="Path" d="M7.416,6l4.3-4.29A1,1,0,0,0,10.3.294l-4.29,4.3L1.716.294A1,1,0,0,0,.3,1.714L4.6,6,.3,10.294a1,1,0,1,0,1.42,1.42l4.29-4.3,4.29,4.3a1,1,0,1,0,1.42-1.42Z" transform="translate(5.994 5.996)"/>
+</svg>

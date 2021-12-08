@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="he">
+
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+        <title>Admin Main</title>
+        <link rel="icon" type=" image/ico" href=" image/favicon.ico" />
+        <link rel="mask-icon" href=" image/favicon.ico" color="white">
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+        <link rel="stylesheet" type="text/css" href="css/scss/main/catalog.css">
+    </head>
+    <body class="mimsha_body">
+        <section>
+            <header class="head_main">
+                <div class="container">
+                    <div class="d-flex align-items-center justify-content-between head_in ">
+                        <div class="head_rht">
+                            <div class="logo">
+                                <a href="#"><img src=" image/menu.svg" alt="menu"></a>
+                                <a href="#"><img src=" image/logo.svg" alt="logo"></a>
+                                <div class="menu_out">
+                                    <ul class="menu">
+                                        <li><a href="dashboard.html" class=""><img src=" image/layout.svg" class="off"><img src="image/layoutblue.svg" class="on"><span>ראשי</span></a></li>
+                                        <li><a href="myclass_normal.html"><img src=" image/menuuser.svg" class="off"><img src=" image/menuuserblue.svg" class="on"><span>הכיתות שלי</span></a></li>
+                                        <li><a href="myunits.html"><img src=" image/playbtn.svg" class="off"><img src=" image/Group.svg" class="on"><span>היחידות שלי</span></a></li>
+                                        <li><a href="catalog.html" class="active"><img src=" image/Combined Shape.svg"class="off"><img src=" image/combined blue.svg" class="on"><span>קטלוגיחידות</span></a>
+                                        </li>
+                                        <li class="menuplus"><a href="#"><i><img src=" image/plus.svg"></i><span>יצירת יחידהחדשה</span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="head_lft d-flex align-items-center">
+                            <ul class="head_lft_first">
+                                <li><a href="catalog.html"><img src=" image/Combined Shape.svg" alt="Shape"><span>קטלוג
+                                    יחידות</span><i class="count">1</i></a></li>
+                                <li><a href="#"><img src=" image/minimize.svg" alt="search"></a></li>
+                                <li><a href="#"><img src=" image/bell.svg" alt="shape"></a></li>
+                                <li><a href="#"><img src=" image/Shape.svg" alt="shape"></a></li>
+                            </ul>
+                            <ul class="user">
+                                <li><a href="#"><img src=" image/user.svg" alt="user" class="user_img"><span>עדייה
+                                    וולק</span><img src=" image/arrow-right.svg" alt="arrow"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <div class="container">
+                <section class="main main2">
+                 
+                </section>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="foot d-flex align-items-center justify-content-between">
+                    <div class="foot_rht">
+                        <p>כל הזכויות שמורות © ממשק טכנולוגיות לימודיות בע מ</p>
+                    </div>
+                    <div class="foot_mid">
+                        <a href="#">פרטיות.</a> <a href="#"> תקנון שימוש</a>
+                    </div>
+                    <div class="foot_lft">
+                        <p>מדריך שימוש במערכת</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Modal -->
+        <div class="modal fade" id="AddToClass" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <a href="javascript:void(0)" data-dismiss="modal"><img src=" image/close.svg" alt="close"></a>
+                    <div class="adding_res">
+                        <h2>הוספת יחידה לכיתה ב’3</h2>
+                        <div class="white_strip">
+                            <div class="catalog_con d-flex align-items-center p-0">
+                                <img src=" image/catalog3.png" style="width: 100px;">
+                                <div class="catalog_in">
+                                    <h4>תקשורת בעלי חיים</h4>
+                                    <p><span>תחום:</span>מדעים</p>
+                                    <p class="m-0"><span>כיתות:</span>א, ב, ג</p>
+                                </div>
+                            </div>
+                            <div class="checkmark"><img src=" image/checkmark.svg" alt="check"></div>
+                        </div>
+                        <div class="white_strip white_con classdrop">
+                            <p>
+                                <span>לאיזה מקצוע ברצונך להוסיף את היחידה?</span>
+                                <img src=" image/arrow-right.svg" class="arrow">
+                            </p>
+                            <ul>
+                                <li>תורה</li>
+                                <li>חשבון</li>
+                                <li>גיאוגרפיה</li>
+                                <li>אזרחות</li>
+                                <li>ספרות</li>
+                            </ul>
+                        </div>
+                        <div class="white_strip white_con classdrop toggleSec">
+                            <p>
+                                <span>לאיזה נושא משוייכת היחידה?</span>
+                                <img src=" image/arrow-right.svg" class="arrow">
+                            </p>
+                            <ul>
+                                <li>תורה</li>
+                                <li>חשבון</li>
+                                <li>גיאוגרפיה</li>
+                                <li>אזרחות</li>
+                                <li>ספרות</li>
+                            </ul>
+                        </div>
+                        <div class="white_strip white_con input_field p-0">
+                            <input type="text" class="input_field" placeholder="בחרו שם לנושא אליו תרצו להוסיף את היחידה">
+                        </div>
+                        <div class="checkdiv">
+                            <input type="checkbox" id="modalcheck" class="check_in">
+                            <label for="modalcheck" class="checklabel">
+                                <div class="check"></div> <i>יצירת נושא חדש</i>
+                            </label>
+                        </div>
+                        <div class="grade_btn d-flex align-items-center justify-content-end">
+                            <button type="button" class="plan_btn">ביטול</button>
+                            <button type="button" class="blue_btn">הוספת יחידה</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="share_unit" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <a href="javascript:void(0)" data-dismiss="modal"><img src=" image/close.svg" alt="close"></a>
+                    <div class="adding_res">
+                        <h2>שיתוף יחידה</h2>
+                        <div class="white_strip">
+                            <div class="catalog_con d-flex align-items-center p-0">
+                                <img src=" image/catalog3.png" style="width: 100px;">
+                                <div class="catalog_in">
+                                    <h4>תקשורת בעלי חיים</h4>
+                                    <p><span>תחום:</span>מדעים</p>
+                                    <p class="m-0"><span>כיתות:</span>א, ב, ג</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="link_strip d-flex align-items-center justify-content-between">
+                            <a href="javascript:void(0)" class="copy_link"><span><img src=" image/link.svg"
+                                                                                      alt="link"></span>לחצו להעתקת הקישור</a>
+                            <button class="blue_btn green_btn"><img src=" image/tick-green.svg">הקישור הועתק</button>
+                        </div>
+                        <div class="d-flex align-items-end">
+                            <div class="link_strip link_strip2">
+                                <span><img src=" image/email.svg" alt="link"></span>
+                                <input type="mail" class="input_field" placeholder="הוסף דוא”ל לשליחה">
+                            </div>
+                            <button class="blue_btn sending_mail">שליחה</button>
+                            <button class="blue_btn green_btn"><img src=" image/tick-green.svg"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="alert" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                    <a href="javascript:void(0)" data-dismiss="modal"><img src=" image/close.svg" alt="close"></a>
+                    <div class="adding_res text-center">
+                        <h2>רגע, רגע..</h2>
+                        <p>האם ברצונך להסיר את הקבוצה?</p>
+                        <div class="grade_btn d-flex align-items-center justify-content-center">
+                            <button type="button" class="plan_btn">ביטול</button>
+                            <button type="button" class="blue_btn">הסר</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+        <script src=" js/bootstrap.min.js"></script>
+        <script src=" js/owl.carousel.min.js"></script>
+        <script src=" js/jquery.matchHeight-min.js"></script>
+        <script src=" js/custom.js"></script>
+        <script>
+            /* Match title height */
+            function MatchHeight() {
+                $('.match').matchHeight({});
+            }
+            $(document).ready(function () {
+                MatchHeight();
+            });
+        </script>
+    </body>
+
+</html>

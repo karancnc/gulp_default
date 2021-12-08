@@ -1,0 +1,29 @@
+/*!
+Theme Name: Sitt Website
+Theme URI: 
+Author: 
+Author URI: 
+Description:
+Version: 1.1.0
+Text Domain: cs
+*/
+
+/**
+ * Vars
+ */
+
+
+/**
+  * Includes
+  */
+ 
+@import "vendors/bootstrap4/bootstrap";
+@import "var";
+@import "owl.carousel";
+
+@import "general";
+@import "components/header";
+@import "components/footer"; 
+
+
+     
